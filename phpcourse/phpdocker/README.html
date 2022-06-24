@@ -70,7 +70,7 @@ add your own hostname on your <code>/etc/hosts</code></p>
 <h2>Hosts within your environment</h2>
 
 <p>You'll need to configure your application to use any services you enabled:</p>
-
+docker exec -it -u $(id -u):$(id -g) CONTAINER_NAME COMMAND
 <table>
 <thead>
 <tr>
